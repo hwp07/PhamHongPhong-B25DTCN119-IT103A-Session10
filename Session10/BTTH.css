@@ -1,0 +1,27 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.header .items {
+  background-color: #1e1e1e;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.items p {
+  color: #d4af37;
+  font-weight: bold;
+  width: 158.37px;
+  height: 36px;
+}
+
+.items a {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+  width: 353.06px;
+  height: 21px;
+}
