@@ -1,56 +1,61 @@
 <!doctype html>
-<html lang="en">
+<html lang="vi">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Món Nổi Bật</title>
     <link rel="stylesheet" href="LS5.css" />
-    <title>Document</title>
   </head>
   <body>
     <h1>Món nổi bật hôm nay</h1>
-    <div class="meal">
-      <div class="items">
-        <img
-          src="https://www.lakelovers.co.uk/blog/wp-content/uploads/sites/15/2020/10/michelinstar-768x461.png"
-        />
-        <p>Grilled Wagyu Beef Tenderloin</p>
-        <p>1.200.000 đ</p>
+
+    <div class="menu">
+      <!-- Hàng trên -->
+      <div class="row-top">
+        <div class="card big">
+          <img
+            src="https://www.lakelovers.co.uk/blog/wp-content/uploads/sites/15/2020/10/michelinstar-768x461.png"
+          />
+          <h3>Grilled Wagyu Beef Tenderloin</h3>
+          <p class="price">1.200.000 đ</p>
+        </div>
+
+        <div class="col-right">
+          <div class="card small">
+            <img
+              src="https://assets.bonappetit.com/photos/5a04d26f2fff8c4e1363fe2c/16:9/w_3727,h_2096,c_limit/seared-scallops-with-brown-butter-and-lemon-pan-sauce.jpg"
+            />
+            <h3>Seared Scallops</h3>
+            <p class="price">320.000 đ</p>
+          </div>
+
+          <div class="card small">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyT95QqZ1G161LZ6D5zB0X-oPs30IjsEyguA&s"
+            />
+            <h3>Truffle Deviled Eggs</h3>
+            <p class="price">180.000 đ</p>
+          </div>
+        </div>
       </div>
 
-      <div class="items">
-        <img
-          src="https://assets.bonappetit.com/photos/5a04d26f2fff8c4e1363fe2c/16:9/w_3727,h_2096,c_limit/seared-scallops-with-brown-butter-and-lemon-pan-sauce.jpg"
-          id="small"
-        />
-        <p>Seared Scallops</p>
-        <p>320.000 đ</p>
-      </div>
+      <!-- Hàng dưới -->
+      <div class="row-bottom">
+        <div class="card big">
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLLfsHi7FLqwUXSEqwJIIl5uIcWgT5zynsrg&s"
+          />
+          <h3>Lobster Bisque</h3>
+          <p class="price">420.000 đ</p>
+        </div>
 
-      <div class="items">
-        <img
-          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyT95QqZ1G161LZ6D5zB0X-oPs30IjsEyguA&s"
-          id="small"
-        />
-        <p>Truffle Deviled Eggs</p>
-        <p>180.000 đ</p>
-      </div>
-    </div>
-
-    <div class="container">
-      <div class="items">
-        <img
-          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLLfsHi7FLqwUXSEqwJIIl5uIcWgT5zynsrg&s"
-        />
-        <p>Lobster Bisque</p>
-        <p>420.000 đ</p>
-      </div>
-
-      <div class="items">
-        <img
-          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ641AD7ZuBJ_WbhnV3YpnZYwtqg9NZQWJ8cA&s"
-        />
-        <p>Pan-Seared Foie Gras</p>
-        <p>580.000 đ</p>
+        <div class="card big">
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ641AD7ZuBJ_WbhnV3YpnZYwtqg9NZQWJ8cA&s"
+          />
+          <h3>Pan-Seared Foie Gras</h3>
+          <p class="price">580.000 đ</p>
+        </div>
       </div>
     </div>
   </body>
