@@ -2,26 +2,77 @@
   padding: 0;
   margin: 0;
 }
-
-.header .items {
+body {
+  background-color: #f9f5f0;
+  font-family: "Inter", sans-serif;
+}
+.header {
   background-color: #1e1e1e;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
+  padding: 30px 40px;
 }
-
 .items p {
   color: #d4af37;
   font-weight: bold;
+  font-size: 32px;
   width: 158.37px;
   height: 36px;
+  display: flex;
+  align-items: center;
 }
-
 .items a {
   color: #ffffff;
   text-decoration: none;
   font-weight: bold;
   width: 353.06px;
   height: 21px;
+  padding: 40px;
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 50px;
+  padding: 60px 40px;
+}
+.card-items {
+  background-color: #ffffff;
+  padding: 40px;
+  border-radius: 15px;
+  max-width: 580px;
+  width: 100%;
+}
+.card-items p {
+  font-weight: bold;
+  font-size: 17.7px;
+  color: #555555;
+  line-height: 28.8px;
+  margin-top: 30px;
+  margin-bottom: 34.79px;
+}
+h2 {
+  color: #d4af37;
+  font-weight: bold;
+  font-size: 27.6px;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #1e1e1e;
+}
+
+.footer p {
+  color: #dddddd;
+  padding: 30px 40px;
 }
